@@ -13,7 +13,7 @@ You feed the contructor a string of the filename and an array of file extensions
 
 ### How to use
 
-```javascript
+```html
 	<script src='js/fev.js'></script>
 
 	<script>
