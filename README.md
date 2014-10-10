@@ -14,17 +14,17 @@ You feed the contructor a string of the filename and an array of file extensions
 ### How to use
 
 ```html
-	<script src='js/fev.js'></script>
+<script src='js/fev.js'></script>
 
-	<script>
-		(function(){
-			var myFileCheck = new fileExtensionValidator({
-			  file: 'unicorn-bike.bmp',
-			  fileTypes: ['jpg','jpeg','png','gif','bmp']
-			});
+<script>
+	(function(){
+		var myFileCheck = new fileExtensionValidator({
+		  file: 'unicorn-bike.bmp',
+		  fileTypes: ['jpg','jpeg','png','gif','bmp']
+		});
 
-			var check = myFileCheck.validateExt();
-			console.log(check);
-		})();
-	</script>
+		var check = myFileCheck.validateExt();
+		console.log(check); //true
+	})();
+</script>
 ```
